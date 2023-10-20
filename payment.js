@@ -135,7 +135,7 @@ subtotal.appendChild(div8);
 var couponCode = "MASAI30"; // Coupon code for 20% discount
 var isCouponApplied = false; // Flag to track coupon application
 
-
+// functionality
 var couponButton = document.getElementById("promoC");
 couponButton.addEventListener("click", applyCoupon);
 
