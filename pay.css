@@ -1,0 +1,408 @@
+body{
+    /* background-color: aqua; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav {
+    display: flex;
+justify-content: space-between;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+align-items: center;
+width:60%;
+margin: 2% auto auto auto;
+}
+.nav>img{
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.nav>div{
+    display: flex;
+    align-items: center;
+}
+.nav>div>img{
+    width: 2.5rem;
+    height: 2rem;
+   
+}
+
+
+#details{
+    width: 60%;
+    margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+#details>div:nth-child(1){
+  width: 60%;
+}
+/* .form{
+    width: 65%;
+} */
+
+#formsubmit{
+width: 60%;
+margin:0.8rem auto auto auto;
+/* border: 2px solid red; */
+}
+
+/* .{
+    width: fit-content;
+   
+} */
+
+.onediv{
+  width: 100%; justify-content: space-between; gap: 2%;
+}
+
+
+.form-group {
+  display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+
+    /* background-color: yellow; */
+  }
+  
+
+  .form-control1{
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative; /* Add relative positioning */
+    background: transparent; /* Make the input background transparent */
+  }
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative; /* Add relative positioning */
+    background: transparent; /* Make the input background transparent */
+  }
+  
+  .form-control:focus {
+     border-color:red; /*Change border color when the input is focused */
+  }
+
+  .form-control1:focus {
+    border-color:red; /*Change border color when the input is focused */
+ }
+  
+  label {
+    position: absolute;
+    bottom: 10px; /* Adjust the label's vertical position */
+    left: 10px;
+    pointer-events: none;
+    transition: 0.2s ease all;
+  }
+  
+  .form-control:focus + label,
+  .form-control:valid + label {
+    bottom: 34px; /* Move label to the border line when focused or has content */
+    font-size: 16px;
+    /* color: #007bff; */
+    border:none;
+  }
+
+  .form-control1:focus + label,
+  .form-control1:valid + label {
+    bottom: 34px; /* Move label to the border line when focused or has content */
+    font-size: 16px;
+  
+    border:none;
+  }
+
+  #formsubmit{
+    width: 100%;
+  }
+  #formsubmit>div:nth-child(1){
+    
+    display: flex;
+    
+  }
+  
+
+  .form-group1 {
+    display: flex;
+    position: relative;
+    margin-bottom: 2rem;
+    /* margin-top: 1rem; */
+  }
+  .firstname{
+    width: 100%;
+       padding: 10px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       position: relative; /* Add relative positioning */
+       background: transparent; /* Make the input background transparent */
+   
+     }
+
+
+
+  .firstname1{
+ width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative; /* Add relative positioning */
+    background: transparent; /* Make the input background transparent */
+
+  }
+
+  #formsubmit>div:nth-child(2){
+  
+    display: flex;
+    /* justify-content: space-around; */
+  }
+
+  #formsubmit>div:nth-child(3){
+  
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #formsubmit>div:nth-child(4){
+   
+    display: flex;
+    justify-content: space-around;
+  }
+  #formsubmit>div:nth-child(5){
+   
+    display: flex;
+    justify-content: space-around;
+  }
+  #formsubmit>div:nth-child(6){
+   
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+  }
+  
+  .checkbox{
+   
+    color: #626669;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    justify-content: flex-start;
+    line-height: 21px;
+    margin: 0 auto 0.7rem 0;
+    padding: 16px 0 0;
+    position: relative;
+   font-size: 16px;
+
+  }
+
+  #img{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  
+  #img >img{
+   border: 1px solid gray;
+   width: 2rem;
+   padding: 2px 4px;
+  }
+
+  #details>div>span{
+    justify-content: center;
+    display: flex;
+    font-size: 17px
+  }
+
+  #plogo{
+    width: 100%; display: flex; margin-bottom: 1rem; border: 1px solid rgb(211, 196, 196); justify-content: space-around; padding:  0.9rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+
+  #plogo>button:nth-child(1){
+    width: 45%; height: 2.5rem; background-color: rgb(255,196,57);
+    cursor: pointer;
+    border: hidden;
+    border-radius: 5px;
+  }
+
+  #plogo>button:nth-child(2){
+    width: 45%; height: 2.5rem; 
+    border: hidden;
+    border-radius: 5px;
+   
+  }
+
+  #submit{
+    display: flex; justify-content: space-between; gap: .8rem;
+  }
+  #submit>div:nth-child(1){
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #submit>div:nth-child(1) button{
+    background-color: blue; color: white; border: hidden; padding:0.9rem 1rem; width: 90%;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+
+  #submit>div:nth-child(2) div{
+    display: flex;
+    justify-content: space-between;
+  }
+  #submit>div:nth-child(2) div>p{
+    font-size: 14px;
+  }
+
+  .paynow{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+position: sticky;
+top:2rem;
+  }
+
+  #first1{
+    width: 92%;
+    border: 1px solid gainsboro;
+    padding: 1rem 0.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  #first1>div:nth-child(1){
+   display: flex;
+    margin-bottom: 1%;
+  }
+  #first1>div:nth-child(2){
+   width: 100%;
+   
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    border-radius: 5px;
+   
+  }
+
+  #first1>div:nth-child(2) input{
+    /* padding: 0.8rem; */
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  #first1>div:nth-child(2) button {
+    padding: 0.6rem;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .checklabel{
+    position: relative;
+    bottom: 0;
+margin-left: 10px;
+  }
+  .form-group2{
+    display: flex;
+    position: relative;
+    margin-bottom: 0.9rem;
+  }
+
+  #Credit{
+    background-color: #f2f2f2;
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.6rem;
+
+  }
+
+  #subtotal{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    justify-content: center;
+    border: 1px solid gray;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+  }
+
+  #subtotal >div{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  #subtotal >div:hover{
+   cursor: pointer;
+  
+  }
+.hrclass{
+  width: 94%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 767px) {
+
+  #submit{
+    display: none;
+  }
+  #details{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  #details>div:nth-child(1){
+    width: 95%;
+    margin: auto;
+  }
+  
+  #details>div:nth-child(2){
+    width: 95%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #submit{
+    display: none;
+  }
+  #details{
+    width: 100%;
+ 
+  }
+  #details>div:nth-child(1){
+    width: 100%;
+  }
+  
+  #details>div:nth-child(2){
+    width: 100%;
+  }
+}
+
