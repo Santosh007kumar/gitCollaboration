@@ -12,8 +12,11 @@ body{
     background-attachment: fixed;
     /* background-position: center; */
     margin-bottom: 1%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/screen.png);
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/screen.png); 
+}
+i.bi-x-square-fill{
+    margin-left: 100%;
+    cursor: pointer;
 }
 #page{
     /* margin: 3% 5%; */
@@ -181,3 +184,58 @@ span{
     text-align: center;
     margin-top: 10%;
 }
+@media screen and (max-width: 680px) {
+
+    #page{
+        /* margin: 3% 5%; */
+        /* margin: auto; */
+        width: 100%;
+        padding: 1% ;
+        background-color: white;
+        border-radius: 3px;
+        /* border: 1px solid black;  */
+    }
+    #main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .account,#Signup{
+        width: 90%;
+    }
+    #login button{
+        margin: 2%;
+        width: 90%;
+    }
+    #Signup{
+        margin: 8%;
+    }
+    body{
+        background-image: none;
+      }
+ }
+
+
+
+ @media screen and (max-width: 220px) {
+   
+    .container {
+        margin: 2%;
+    }
+
+    .account,#Signup {
+        width: 100%;
+    }
+    #login button{
+        
+        width: 100%;
+    }
+    #main>#Signup{
+        margin: 8%;
+    }
+    body{
+      background-image: none;
+    }
+}   
+
+
+
