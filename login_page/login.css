@@ -12,8 +12,7 @@ body{
     background-attachment: fixed;
     /* background-position: center; */
     margin-bottom: 1%;
-    /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))url(./image/screen.png); */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/screen.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/screen.png);
     
 }
 #page{
@@ -23,13 +22,12 @@ body{
     padding: 1% 3%;
     background-color: white;
     border-radius: 3px;
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
 }
 .container{
     width: 100%;
-    /* background-size: cover;
-    background-attachment: fixed; */
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    margin-top: 20px;
     background-color: rgb(237, 236, 236);
 }
 .container > div img{
@@ -59,6 +57,7 @@ body{
     border-radius: 5px;
     background-color:  rgb(20, 117, 227);
     cursor: pointer;
+    margin-bottom: 30px;
  }
  .container>div button:hover {
     background-color: #0056b3;
@@ -109,11 +108,76 @@ i.bi-person-fill-add {
     font-size: 1rem;
     color: rgb(30, 29, 29);
 }
-.account a{
+/* .account a{
   color: rgb(30, 28, 28);
-}
+} */
 #main #Signup{
     width: 100%;
     /* border: 1px solid red; */
      
+}
+i.bi-person-fill-slash{
+    font-size: 24px;
+}
+span{
+    font-size: 20px;
+    padding: 1%;
+}
+#email,#password {
+    width: 100%;
+    padding: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#check{
+    padding: 1%;
+}
+#Signup button{
+    padding: 3%;
+    width: 100%;
+    margin-top: 6%;
+    cursor: pointer;
+    background-color:  rgb(20, 117, 227); ;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px; 
+}
+#Signup button:hover{
+    background-color: #0056b3
+}
+#Signup p{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1rem;
+    color: rgb(30, 29, 29);
+}
+/* #Signup a{
+  color: rgb(30, 28, 28);
+} */
+.img1{
+    height: 35px;
+    width: 35px;
+    /* margin-right: 100%; */
+}
+.img2{
+    height: 35px;
+    width: 35px;
+    padding: 2.5%;
+}
+#login button{
+    padding:  0% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    /* background-color: white; */
+     /* border-radius: 3px;  */
+}
+#login{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
 }
