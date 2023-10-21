@@ -9,6 +9,7 @@ function signUp(event) {
 
     let email = document.querySelector(".account #email").value;
     let password = document.querySelector(".account #password").value;
+    var p = document.querySelector("#status")
 
     let userData = {
         userEmail: email,
@@ -26,9 +27,9 @@ function signUp(event) {
         }
 
         if (flag) {
-             alert("User already exists!!");
-            // p.textContent = "User already exist!!"
-            // p.style.color = "red" 
+            //  alert("User already exists!!");
+            p.textContent = "User already exist!!"
+            p.style.color = "red" 
         } else {
             var p = document.querySelector("#status");
             userDataBase.push(userData);
@@ -39,13 +40,13 @@ function signUp(event) {
             document.querySelector(".account #email").value = "";
             document.querySelector(".account #password").value = "";
         }
-    } else {
+       }else {
         userDataBase.push(userData);
         localStorage.setItem("userDataBase", JSON.stringify(userDataBase));
-        alert("Signup Successful!! Enter Login Credentials");
+        // alert("Signup Successful!! Enter Login Credentials");
         document.querySelector(".account #email").value = "";
         document.querySelector(".account #password").value = "";
-    }
+    } 
   }
    
     document.getElementById("setNewPasswordButton").addEventListener("click", function() {
@@ -102,19 +103,12 @@ document.getElementById("continueWithGoogleButton").addEventListener("click", fu
     window.open(googleAuthUrl, "GoogleOAuth", "width=600,height=400");
 });
 
-// document.getElementById("resetPasswordButton").addEventListener("click", function() {
-   
-//     var resetPasswordMessage = document.getElementById("resetPasswordMessage");
-//      resetPasswordMessage.style.display = "reset password";
-    
-// })
-
 
 document.addEventListener("DOMContentLoaded", function() {
     
     // var btn = document.getElementById("btn");
     var cross = document.getElementById("cross");
-    var loginPage = document.getElementById("login_page");
+    var loginPage = document.getElementById("page");
   
     // btn.addEventListener("click", function() {
     //   // Show the "login_page" element
