@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* width: 90%;
+    border: 1 px solid black; */
+}
+body{
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: center; */
+    margin-bottom: 1%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./image/screen.png);  */
+}
+i.bi-x-square-fill{
+    margin-left: 100%;
+    cursor: pointer;
+}
+#page{
+    /* margin: 3% 5%; */
+    width: 60%;
+    margin: auto;
+    padding: 1% 3%;
+    background-color: white;
+    border-radius: 3px;
+    /* border: 1px solid red;  */
+}
+.container{
+    width: 100%;
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    background-color: rgb(237, 236, 236);
+}
+.container > div img{
+    height: 45px;
+    width: 150px;
+    margin: 1%;
+}
+.container>div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1%;
+}
+.container h2{
+    text-align: center;
+    color: rgb(18, 80, 152);
+}
+.container p{
+    text-align: center;
+    padding: 10px;
+}
+.container>div button {
+    text-align: center;
+    padding: 1.5% 4%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color:  rgb(20, 117, 227);
+    cursor: pointer;
+    margin-bottom: 30px;
+ }
+ .container>div button:hover {
+    background-color: #0056b3;
+}
+#main{
+    display: flex;
+    gap: 4%;
+    margin-top: 5%;
+    /* border: 2px solid red; */
+}
+#main>.account{
+    width: 100%;
+}
+i.bi-person-fill-add {
+    font-size: 24px;
+}
+.account span{
+    font-size: 20px;
+    padding: 1%;
+}
+
+
+#email,#password {
+    width: 100%;
+    padding: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#check{
+    padding: 1%;
+}
+.account button{
+    padding: 3%;
+    width: 100%;
+    margin-top: 6%;
+    cursor: pointer;
+    background-color:  rgb(20, 117, 227); ;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px; 
+}
+.account button:hover{
+    background-color: #0056b3
+}
+.account p{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1rem;
+    color: rgb(30, 29, 29);
+}
+/* .account a{
+  color: rgb(30, 28, 28);
+} */
+#main #Signup{
+    width: 100%;
+    /* border: 1px solid red; */
+     
+}
+i.bi-person-fill-slash{
+    font-size: 24px;
+}
+span{
+    font-size: 20px;
+    padding: 1%;
+}
+#email,#password {
+    width: 100%;
+    padding: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#check{
+    padding: 1%;
+}
+#Signup button{
+    padding: 3%;
+    width: 100%;
+    margin-top: 6%;
+    cursor: pointer;
+    background-color:  rgb(20, 117, 227); ;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 3px; 
+}
+#Signup button:hover{
+    background-color: #0056b3
+}
+#Signup p{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1rem;
+    color: rgb(30, 29, 29);
+}
+/* #Signup a{
+  color: rgb(30, 28, 28);
+} */
+.img1{
+    height: 35px;
+    width: 35px;
+    /* margin-right: 100%; */
+}
+.img2{
+    height: 35px;
+    width: 35px;
+    padding: 2.5%;
+}
+#login button{
+    padding:  0% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    /* background-color: white; */
+     /* border-radius: 3px;  */
+}
+#login{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+@media screen and (max-width: 680px) {
+
+    #page{
+        /* margin: 3% 5%; */
+        /* margin: auto; */
+        width: 100%;
+        padding: 1% ;
+        background-color: white;
+        border-radius: 3px;
+        /* border: 1px solid black;  */
+    }
+    #main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .account,#Signup{
+        width: 90%;
+    }
+    #login button{
+        margin: 2%;
+        width: 90%;
+    }
+    #Signup{
+        margin: 8%;
+    }
+    body{
+        background-image: none;
+      }
+ }
+
+
+
+ @media screen and (max-width: 220px) {
+   
+    .container {
+        margin: 2%;
+    }
+
+    .account,#Signup {
+        width: 100%;
+    }
+    #login button{
+        
+        width: 100%;
+    }
+    #main>#Signup{
+        margin: 8%;
+    }
+    body{
+      background-image: none;
+    }
+}   
+
+
+
