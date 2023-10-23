@@ -68,12 +68,13 @@ The rapid creation of this clone in a mere five days by a dedicated team of four
 
 
 # Team Members: 
-Santosh 
 
-Abhay Khare
+. Santosh 
 
-Madhukar
+. Abhay Khare
 
-Jagriti
+. Madhukar Kumar
+
+ .Jagriti
 
 
