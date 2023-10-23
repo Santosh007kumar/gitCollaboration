@@ -22,6 +22,7 @@ JAVASCRIPT
 
 # Deployment
 The Project is deployed on netlifty.
+https://reliable-bombolone-51a74d.netlify.app/
 
 # Conclusion
 
