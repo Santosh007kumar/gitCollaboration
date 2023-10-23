@@ -2,6 +2,8 @@
 
 # Bed Bath and Beyond
 
+https://reliable-bombolone-51a74d.netlify.app/
+
 
 # Objective
 The main objective of our project was to make practical use of all the coding skills that we learnt in Masai School to build the Project.
@@ -21,8 +23,7 @@ CSS
 JAVASCRIPT
 
 # Deployment
-The Project is deployed on netlifty.
-https://reliable-bombolone-51a74d.netlify.app/
+The Project is deployed on netlifty -https://reliable-bombolone-51a74d.netlify.app/
 
 # Conclusion
 
