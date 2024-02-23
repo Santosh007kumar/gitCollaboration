@@ -34,7 +34,7 @@ Login and Signup Page
 
 Home Page
 
-![image](https://github.com/Santosh007kumar/gitCollaboration/assets/51116785/a81c2d3c-b1dc-4aad-9c19-7df87d58eab2)
+![image](https://github.com/Santosh007kumar/gitCollaboration/blob/main/Home/IMAGES/P1.png)
 
 
 Product Page
