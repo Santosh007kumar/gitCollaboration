@@ -29,7 +29,7 @@ The Project is deployed on netlifty -https://reliable-bombolone-51a74d.netlify.a
 
 Login and Signup Page
 
-![image](https://github.com/Santosh007kumar/gitCollaboration/assets/51116785/977d9552-6e5f-44f6-93b5-3afc8f7c7670)
+![image](https://github.com/Santosh007kumar/gitCollaboration/blob/main/Home/IMAGES/L1.png)
 
 
 Home Page
